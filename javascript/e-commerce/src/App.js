@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Switch, Route, Link, BrowserRouter as Router } from "react-router-dom";
+import { Routes, Route, Link, BrowserRouter as Router } from "react-router-dom";
 
 import AddProduct from './components/AddProduct';
 import Cart from './components/Cart';
@@ -88,13 +88,13 @@ export default class App extends Component {
                 )}
               </div>
             </nav>
-            <Switch>
+            <Routes>
               <Route exact path="/" component={ProductList} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/cart" component={Cart} />
               <Route exact path="/add-product" component={AddProduct} />
               <Route exact path="/products" component={ProductList} />
-            </Switch>
+            </Routes>
           </div>
         </Router>
       </Context.Provider>
