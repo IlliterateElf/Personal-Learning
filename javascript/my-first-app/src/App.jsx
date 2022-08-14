@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import MainContent from "./MainContent";
+import CustomersList from "./CustomersList";
 import NavBar from "./NavBar";
 
 export default class App extends Component {
@@ -7,8 +7,8 @@ export default class App extends Component {
         return (
             <React.Fragment>
                 <NavBar />
-                <MainContent />
+                <CustomersList />
             </React.Fragment>
-        )
+        );
     }
 }
