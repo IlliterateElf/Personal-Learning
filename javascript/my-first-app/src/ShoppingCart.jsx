@@ -22,6 +22,8 @@ export default class ShoppingCart extends Component {
                         return <Product
                             key={prod.id}
                             product={prod}
+                            onIncrement={this.handleIncremental}
+                            onDecrement={this.handleDecrement}
                         >
                             <button className="btn btn-primary">Buy Now</button>
                         </Product>
@@ -30,4 +32,18 @@ export default class ShoppingCart extends Component {
             </div>
         );
     }
+
+    handleIncremental = (product) => {
+        let allProducts = [...this.state.products];
+        let index = allProducts.indexOf(product);
+        allProducts[index].quantity++;
+        this.setState({ products: allProducts })
+    };
+
+    handleDecrement = (product) => {
+        let allProducts = [...this.state.products];
+        let index = allProducts.indexOf(product);
+        allProducts[index].quantity--;
+        this.setState({ products: allProducts })
+    };
 }
