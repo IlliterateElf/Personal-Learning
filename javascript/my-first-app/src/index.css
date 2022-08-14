@@ -9,3 +9,11 @@
 .hand-icon {
     cursor: pointer;
 }
+
+.text-success {
+    color: green;
+}
+
+.text-failed {
+    color: red;
+}
