@@ -1,0 +1,17 @@
+<html>
+<body>
+<div class="row">
+    <div class="leftcolumn">
+        {% for post in posts reversed %}
+        <div class="card">
+            <a style="text-decoration: none; color: black" href="/post/{{post.id}}">
+                <h2>{{post.title}}</h2>
+                <h5>{{post.created_At}}</h5>
+                <p>{{post.body|truncatewords:20}}</p>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+</body>
+</html>
