@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GroundUp",
+			"Path": "C:\\Users\\clara\\Documents\\GitHub\\GroundUp\\GroundUp\\Source\\GroundUp.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GroundUpEditor",
+			"Path": "C:\\Users\\clara\\Documents\\GitHub\\GroundUp\\GroundUp\\Source\\GroundUpEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\clara\\Documents\\Unreal Projects\\ActionRPGPractice\\Source\\ActionRPG\\ActionRPG.Build.cs",
+		"C:\\Users\\clara\\Documents\\Unreal Projects\\ActionRPGPractice\\Source\\ActionRPGLoadingScreen\\ActionRPGLoadingScreen.Build.cs",
+		"C:\\Users\\clara\\Documents\\Unreal Projects\\ActionRPGPractice\\Source\\ActionRPG.Target.cs",
+		"C:\\Users\\clara\\Documents\\Unreal Projects\\ActionRPGPractice\\Source\\ActionRPGEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}

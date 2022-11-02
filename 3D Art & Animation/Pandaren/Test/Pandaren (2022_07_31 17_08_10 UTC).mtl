@@ -1,0 +1,100 @@
+#
+# mtl file for Pandaren.obj obj file
+#
+
+newmtl character/pandaren/female/pandarenfemale.m2_Geoset_000
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd Pandaren_Body.png
+newmtl character/pandaren/female/pandarenfemale.m2_Geoset_017_Dbl
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd Pandaren_pandafemaleskinextra00_00.png
+newmtl character/pandaren/female/pandarenfemale.m2_Geoset_017_Dbl
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd Pandaren_pandafemalehair_00.png
+newmtl character/pandaren/female/pandarenfemale.m2_Geoset_401
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd Pandaren_Body.png
+newmtl character/pandaren/female/pandarenfemale.m2_Geoset_501
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd Pandaren_Body.png
+newmtl character/pandaren/female/pandarenfemale.m2_Geoset_702
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd Pandaren_Body.png
+newmtl character/pandaren/female/pandarenfemale.m2_Geoset_1301
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd Pandaren_Body.png
+newmtl character/pandaren/female/pandarenfemale.m2_Geoset_1401_Dbl
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd Pandaren_pandarenfemale_tabard.png
+newmtl character/pandaren/female/pandarenfemale.m2_Geoset_2201
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd Pandaren_Body.png
+newmtl character/pandaren/female/pandarenfemale.m2_Geoset_3801
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd Pandaren_Body.png
+newmtl character/pandaren/female/pandarenfemale.m2_Geoset_3301
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd Pandaren_eyes00_00_3513030.png
+newmtl character/pandaren/female/pandarenfemale.m2_Geoset_3301
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd Pandaren_eyes00_00_3513030.png

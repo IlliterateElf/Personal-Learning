@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GroundUp.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D9A20A97-5DB5-4D11-BC4E-6446EA549608}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GroundUp.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GroundUpEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{3C97A5DB-33F3-4834-B19B-25131C0A63B0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GroundUp">
+      <UniqueIdentifier>{7B254932-224B-4F25-A4D6-DD4E07F0B63B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GroundUp\BaseGun.cpp">
+      <Filter>Source\GroundUp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GroundUp\BaseGun.h">
+      <Filter>Source\GroundUp</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\GroundUp\GroundUp.Build.cs">
+      <Filter>Source\GroundUp</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GroundUp\GroundUp.cpp">
+      <Filter>Source\GroundUp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GroundUp\GroundUp.h">
+      <Filter>Source\GroundUp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GroundUp\MyFPSCharacter.cpp">
+      <Filter>Source\GroundUp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GroundUp\MyFPSCharacter.h">
+      <Filter>Source\GroundUp</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GroundUp\Rifle.cpp">
+      <Filter>Source\GroundUp</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GroundUp\Rifle.h">
+      <Filter>Source\GroundUp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

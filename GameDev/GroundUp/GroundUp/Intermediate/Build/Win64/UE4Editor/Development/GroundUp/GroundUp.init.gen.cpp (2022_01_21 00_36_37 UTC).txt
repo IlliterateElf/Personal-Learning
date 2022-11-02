@@ -1,0 +1,3 @@
+C:\Users\clara\Documents\GitHub\GroundUp\GroundUp\Intermediate\Build\Win64\UE4Editor\Development\GroundUp\Definitions.GroundUp.h
+C:\Programmes\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Programmes\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

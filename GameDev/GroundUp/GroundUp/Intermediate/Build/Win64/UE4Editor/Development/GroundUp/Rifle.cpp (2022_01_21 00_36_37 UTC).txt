@@ -1,0 +1,5 @@
+C:\Users\clara\Documents\GitHub\GroundUp\GroundUp\Intermediate\Build\Win64\UE4Editor\Development\GroundUp\Definitions.GroundUp.h
+C:\Users\clara\Documents\GitHub\GroundUp\GroundUp\Source\GroundUp\Rifle.h
+C:\Users\clara\Documents\GitHub\GroundUp\GroundUp\Source\GroundUp\BaseGun.h
+C:\Users\clara\Documents\GitHub\GroundUp\GroundUp\Intermediate\Build\Win64\UE4Editor\Inc\GroundUp\BaseGun.generated.h
+C:\Users\clara\Documents\GitHub\GroundUp\GroundUp\Intermediate\Build\Win64\UE4Editor\Inc\GroundUp\Rifle.generated.h
