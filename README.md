@@ -3,20 +3,20 @@
 
 ## Notable projects
  ### Web Development
-  https://github.com/IlliterateElf/Personal-Learning/tree/main/WebDev/javascript/my-favorite-movies
+  https://github.com/IlliterateElf/Personal-Learning/tree/main/WebDev/javascript/my-favorite-movies <br>
   https://github.com/IlliterateElf/Personal-Learning/tree/main/WebDev/python/YeOldeShoppe
  ### Game Development
-  https://github.com/IlliterateElf/Personal-Learning/tree/main/GameDev/Unity/Obstacle%20Course
+  https://github.com/IlliterateElf/Personal-Learning/tree/main/GameDev/Unity/Obstacle%20Course <br>
   https://github.com/IlliterateElf/Personal-Learning/tree/main/GameDev/Unity/ProjectBoost
  ### 3D Rigging and Animation
-  https://github.com/IlliterateElf/Personal-Learning/tree/main/3D%20Art%20%26%20Animation/Pandaren
+  https://github.com/IlliterateElf/Personal-Learning/tree/main/3D%20Art%20%26%20Animation/Pandaren <br>
   https://github.com/IlliterateElf/Personal-Learning/tree/main/3D%20Art%20%26%20Animation/UdemyBlenderCourse/Section%203
  ### 3D Modeling
-  https://github.com/IlliterateElf/Personal-Learning/tree/main/3D%20Art%20%26%20Animation/GrandPiano
-  https://github.com/IlliterateElf/Personal-Learning/tree/main/3D%20Art%20%26%20Animation/UdemyBlenderCourse/Section%202
+  https://github.com/IlliterateElf/Personal-Learning/tree/main/3D%20Art%20%26%20Animation/GrandPiano <br>
+  https://github.com/IlliterateElf/Personal-Learning/tree/main/3D%20Art%20%26%20Animation/UdemyBlenderCourse/Section%202 <br>
   https://github.com/IlliterateElf/Personal-Learning/tree/main/3D%20Art%20%26%20Animation/UdemyBlenderCourse/Section%201
  ### Machine Learning
-  https://github.com/IlliterateElf/Personal-Learning/tree/main/MachineLearning/Python/MachineLearning
+  https://github.com/IlliterateElf/Personal-Learning/tree/main/MachineLearning/Python/MachineLearning <br>
   https://github.com/IlliterateElf/Personal-Learning/tree/main/MachineLearning/Python/Housing
  ### Misc
   Practicing a simple Client/Server interaction with multithreading to minimize latency and avoid exceptions <br>
