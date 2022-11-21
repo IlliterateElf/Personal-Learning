@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    font-weight: normal;
+    text-decoration: underline wavy blue;
+    letter-spacing: 15px;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}
