@@ -1,0 +1,14 @@
+rename all files matching a criteria
+    1. specify criteria
+    2. iterate through all files
+        1. check artefact in alpha order (Is there a natural order?)
+            1. get artefact
+            2. if file, continue
+                1. see if current file name matches criteria
+                    1. get file name
+                    2. check if file name matches criteria
+                        1. if matches, rename file name
+                    3. move to next artefact
+            3. else if directory, move into it.
+                1. keep iterating through artefacts
+                2. when out of artefacts, jump back to beginning
