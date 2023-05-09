@@ -1,24 +1,48 @@
-# Section 1
-# This section doesn't seem to work. The file directories especially it has trouble with.
-# It seems to be a better option, for now, to use the latter section for getting the
-# files and this section to rename those files.
-import glob
+from os import walk
 import os
 
-path = r"D:\FileHistory\clara\DESKTOP-JAEHHPT\Data\C\Users\clara\Pictures\z_Test" + chr(92)
-# search text files starting with the word "sales"
-pattern = path + "*(*UTC).*"
+# base path
+mypath = r"C:\Users\cmillen1\RenameFiles\Source"
 
-# List of the files that match the pattern
-result = glob.glob(pattern)
+# get list of all files in all directories from base path
+for (dirpath, dirnames, filenames) in walk(mypath):
+    for filename in filenames:
+        try:
+            filename.index('UTC).') >= 0
+            old_name = filename
+            cut_start = old_name.index(' (')
+            cut_end = old_name.index(').') + 1
+            new_name =  old_name[0:cut_start] + old_name[cut_end:]
+            try:
+                os.rename(dirpath + chr(92) + old_name, dirpath + chr(92) + new_name)
+            except FileExistsError as e:
+                os.remove(e.filename2)
+                os.rename(dirpath + chr(92) + old_name, dirpath + chr(92) + new_name)
+        except ValueError:
+            continue
+exit()
 
-# Iterating the list with the count
-for file_name in result:
-    old_name = file_name
-    start_cut = old_name.index(' (')
-    end_cut = old_name.index(').') + 1
-    new_name = path + old_name[0:start_cut] + old_name[end_cut:]
-    os.rename(old_name, new_name)
+# # Section 1
+# # This section doesn't seem to work. The file directories especially it has trouble with.
+# # It seems to be a better option, for now, to use the latter section for getting the
+# # files and this section to rename those files.
+# import glob
+# import os
+
+# path = r"C:\Users\cmillen1\RenameFiles\Source" + chr(92)
+# # search text files starting with the word "sales"
+# pattern = path + "*(*UTC).*"
+
+# # List of the files that match the pattern
+# result = glob.glob(pattern)
+
+# # Iterating the list with the count
+# for file_name in result:
+#     old_name = file_name
+#     start_cut = old_name.index(' (')
+#     end_cut = old_name.index(').') + 1
+#     new_name = path + old_name[0:start_cut] + old_name[end_cut:]
+#     os.rename(old_name, new_name)
 
 # -----------------------------------
 # Section 2
